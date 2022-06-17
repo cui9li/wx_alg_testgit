@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WX_alg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/WX_alg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/WX_alg" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="active_monitor/alg_StepDetection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="active_monitor/alg_StepDetection.h" />
+		<Unit filename="alg_ComFunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="alg_ComFunc.h" />
+		<Unit filename="spo2/alg_spo2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="spo2/alg_spo2.h" />
+		<Unit filename="spo2/detect_pr_slop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="spo2/detect_pr_slop.h" />
+		<Unit filename="spo2/filter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="spo2/filter.h" />
+		<Unit filename="spo2/judge_Iswearing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="spo2/judge_Iswearing.h" />
+		<Unit filename="spo2/ppg_analyse.h" />
+		<Unit filename="spo2/ppg_filter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="spo2/ppg_filter.h" />
+		<Unit filename="taishou/algSmartView.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="taishou/algSmartView.h" />
+		<Unit filename="test/active_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/active_main.h" />
+		<Unit filename="test/adpd_spo2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/adpd_spo2.h" />
+		<Unit filename="test/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/debug.h" />
+		<Unit filename="test/dress_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/dress_main.h" />
+		<Unit filename="test/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/spo_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/spo_main.h" />
+		<Unit filename="test/view_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test/view_main.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
